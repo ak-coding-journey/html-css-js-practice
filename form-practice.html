@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body
+        {
+            /*
+            two methods for center align
+            
+            font-family: arial,sans-serif;
+            display: flex;
+            align-items: center;
+            justify-content: center; 
+            height: 100vh;
+            margin: auto; 
+            */
+
+            display: grid;
+            place-items: center;
+            height: 100vh;
+            margin: auto;
+
+        }
+    </style>
+</head>
+<body style="background-color:black; color: antiquewhite;">
+
+    <div class="register-container">
+    <h1>Register</h1>
+
+    <p>Kindly fill this form to register.</p>
+
+    <form action="xiaomi 17 ultra.jpg" method="post">
+
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter username">
+            <br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter email">
+            <br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+            <br><br>
+
+            <label for="repassword">Repeat Password:</label><br>
+            <input type="password" id="repassword" name="repassword" placeholder="Repeat password">
+            <br><br>
+
+            <input type="submit" value="Register">
+
+        </form>
+        <p>Already have an account? Log in.</p>
+    </div>
+
+</body>
+</html>
