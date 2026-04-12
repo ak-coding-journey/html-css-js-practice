@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #fdfcfc;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .card {
+            background: rgb(228, 218, 218);
+            padding: 30px 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 12px rgba(10, 9, 9, 0.15);
+            width: 320px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 4px;
+        }
+
+        p {
+            text-align: center;
+            color: #0c0000;
+            font-size: 13px;
+        }
+
+        label {
+            display: block;
+            font-weight: bold;
+            margin-top: 14px;
+            margin-bottom: 4px;
+            font-size: 13px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 9px;
+            border: none;
+            background: #faf4f4;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-size: 13px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background: #6200ea;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            margin-top: 20px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .login-link {
+            text-align: center;
+            margin-top: 12px;
+            font-size: 12px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+
+<form action="post">
+    <div class="card">
+
+        <h1>Register</h1>
+        <p>Kindly fill in this form to register.</p>
+
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Enter username">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter email">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter password">
+        <label for="repassword">Repeat Password</label>
+        <input type="password" id="repassword" name="repassword" placeholder="Repeat password">
+
+        <input type="submit" value="Register">
+        
+    <div class="login-link">
+        Already have an account? <a href="#">Log in.</a>
+    </div>
+
+    </div>
+</form>
+
+</body>
+
+</html>
