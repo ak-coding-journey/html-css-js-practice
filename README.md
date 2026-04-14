@@ -5,3 +5,4 @@ video tag with basic css
 div and span demo.
 real world form demo with proper css.
 list demo.
+simple service page demo with css.
